@@ -13,6 +13,11 @@ import com.memberclub.domain.context.purchase.common.SubmitSourceEnum;
 import static com.memberclub.domain.contants.StringContants.DISCOUNT_COUPON_RIGHT_TYPE;
 
 /**
+ * <p>
+ * 在复杂业务中，仅业务身份不足以实现不同场景的流程编排诉求，如会员的交易场景包含 直接购买、外部接口直冲、随单售卖等，不同场景下的交易流程不同
+ * 这需要业务场景加以区分，系统将使用业务身份和业务场景两个维度进行流程编排和能力扩展
+ * </p>
+ *
  * @author 掘金五阳
  */
 public enum SceneEnum {

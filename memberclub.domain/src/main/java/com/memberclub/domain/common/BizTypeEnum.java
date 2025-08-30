@@ -11,6 +11,9 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Getter;
 
 /**
+ * 业务身份用于在系统交易流程中区分不同的业务，如以下业务身份包含普通会员类、视频会员、音乐会员、优惠卡包、在线课程等不同产品形态，
+ * MemberClub能快速开发实现虚拟商品的交易能力，这需要系统能识别业务身份，并且根据业务身份进行流程编排和能力扩展。
+ *
  * @author 掘金五阳
  */
 public enum BizTypeEnum {
